@@ -1,0 +1,17 @@
+Package: ctktemplate
+Title: Custom 'pkgdown' template for Christopher T. Kenny
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Christopher T.",
+           family = "Kenny",
+           role = c("aut", "cre"),
+           email = "ctkenny@proton.me",
+           comment = c(ORCID = "0000-0002-9386-6860"))
+Description: Personal pkgdown template, styling, and shared assets for my R
+    package websites.
+Config/Needs/website: christopherkenny/ctktemplate
+URL: https://christophertkenny.com/ctktemplate/
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

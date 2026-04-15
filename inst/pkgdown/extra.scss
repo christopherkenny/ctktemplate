@@ -1,0 +1,63 @@
+$headings-font-weight: 600 !default;
+
+$ctk-ink: #222222;
+$ctk-muted: #47515c;
+$ctk-border: #d7dee3;
+$ctk-surface: #eaebeb;
+
+html {
+  color-scheme: light;
+}
+
+.navbar.bg-primary {
+  --bs-navbar-color: rgba(255, 255, 255, 0.85);
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
+}
+
+.navbar .nav-text {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar .form-control {
+  background-color: #ffffff;
+  color: $ctk-ink;
+}
+
+.navbar .form-control::placeholder {
+  color: $ctk-muted;
+}
+
+.template-home .page-header {
+  margin-bottom: 2rem;
+}
+
+h1,
+.h1,
+.template-home .page-header h1 {
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+h2,
+.h2,
+.template-reference-index h2,
+.template-article h1,
+.template-reference h1 {
+  letter-spacing: -0.03em;
+}
+
+.template-home .page-header p {
+  color: $ctk-muted;
+  font-size: 1.05rem;
+  max-width: 42rem;
+}
+
+h3,
+h4,
+.h3,
+.h4 {
+  letter-spacing: -0.02em;
+}

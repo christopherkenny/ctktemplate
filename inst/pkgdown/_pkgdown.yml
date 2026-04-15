@@ -1,0 +1,28 @@
+template:
+  bootstrap: 5
+  bslib:
+    bootswatch: flatly
+    bg: "#F7F4EF"
+    fg: "#222222"
+    primary: "#B31B1B"
+    secondary: "#47515c"
+    success: "#3E877B"
+    info: "#1c689b"
+    warning: "#F2CC8F"
+    danger: "#a31621"
+    base_font: {google: "Fira Sans"}
+    heading_font: {google: "Fira Sans"}
+    link-color: "#006699"
+    link-hover-color: "#004d73"
+    code-bg: "#EAEBEB"
+    border-radius: 0.5rem
+  opengraph:
+    twitter:
+      creator: "@Chris_T_Kenny"
+
+navbar:
+  bg: primary
+  type: light
+  structure:
+    left: [intro, reference, articles, tutorials, news]
+    right: [search, github]
